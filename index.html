@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEAL PALNNER</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="App.js" defer></script>
+    
+</head>
+<body>
+     
+    <!-- -------------------------------------------------------------------------------------------------------------------- -->
+     <div class="container">
+        <!-- Form Section -->
+        <form class="form">
+            <header class="header">
+                <nav class="nav-bar">
+                    <a href="https://fitmencook.com/how-to-build-a-meal-plan-tips-hints/" target="_blank"><img src="Logo.png" alt="logo" id="food-logo"/></a>
+                    <a href="https://www.safefood.net/how-to/meal-plan" id="anchor-tag" target="_blank"> <i>Meal Planner</i></a>
+                </nav>
+            </header>
+            <main class="main">
+                <!-- Input Field -->
+                  <div class="heigh-weight-age">
+                    <input type="number" id="height" placeholder="Enter height" />
+                    <input type="number" id="weight" placeholder="Enter weight" />
+                    <input type="number" id="age"    placeholder="Enter age" />
+                  </div>
 
+                  <div class="gender-activation-level">
+                     
+                    <select class="gender">
+                         
+                        <option value="male" id="male">male</option>
+                        <option value="female" id="female">female</option>
+                    </select>
+                     
+                    <select class="activity-level">
+                        
+                        <option value="light" id="light">light</option>
+                        <option value="moderate" id="moderate">moderate</option>
+                        <option value="active" id="active">active</option>
+                    </select>
+
+                  </div>
+                  <!-- Generates Meals -->
+                  <div class="generate-meals">
+                    <button type="button" id="generate-meals-button">Generate Meals</button>
+                  </div>
+                  <div id="loader" style="display: none"></div>
+            </main>
+            <footer>
+                
+            </footer>
+        </form>
+        <!-- Card Section -->
+        <div class="cards">
+           
+
+        </div>
+        <!-- nutrients section -->
+        <div class="nutrients">
+         
+        </div>
+        <!-- Recipe Section -->
+        <div class="get-recipe">
+           
+
+        </div>
+     </div>
+</body>
+</html>
